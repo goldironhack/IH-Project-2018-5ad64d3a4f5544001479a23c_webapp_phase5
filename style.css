@@ -1,9 +1,151 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+
+section {
+      color: #61c2ac;
+      font-family: Arial, sans-serif;
+       }
+
+header {
+
+   height: 200px;
+   color: #ffffff;
+ }
+
+
+
+#contenedor {
+  margin:0% auto;
+  width:100% auto;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+#cabecera {
+  background-color: #57058b;
+  height: 200px;
+  color: #ffffff;
+}
+
+#contenido {
+  background-color:#ddd;
+  float:left;
+  margin-top:3%;
+  margin-right:2%;
+  margin-bottom:5%;
+  margin-left:2%;
+  height:700px;
+  padding:10px;
+  width:32% ;
+}
+#lado {
+  background-color:#ddd;
+  float:left;
+  margin-top:3%;
+  margin-right:4%;
+  margin-bottom:5%;
+  margin-left:1%;
+  height:700px;
+  padding:10px;
+  width:36% ;
+  color: #ffffff;
+}
+
+#menu {
+  float:left;
+  margin-top:3%;
+  margin-right:2%;
+  margin-bottom:5%;
+  margin-left:5%;
+  width: 16%;
+  height: 700px;
+  padding:20px;
+  padding-top:0px;
+  background-color: #57058b;
+}
+
+#grafica {
+  float:left;
+  margin-top:0%;
+  margin-right:5S%;
+  margin-bottom:5%;
+  margin-left:5%;
+  width: 40%;
+  height: 700px;
+  padding:20px;
+  padding-top:0px;
+  background-color:#ddd;
+}
+
+#map {
+        height: 680px;
+        width: 100%;
+       }
+
+/* Style the tab */
+.tab {
+   overflow: hidden;
+   float: left;
+   background-color: #cf8ff7;
+   /*padding:10px;*/
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+   background-color: inherit;
+   float: left;
+   height: 40px;
+   width: 90px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   transition: 0.3s;
+   color: #ffffff;
+   font-family: Arial, sans-serif;
+   font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+   background-color: #cf8ff7;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+   background-color: #9c0cf7;
+}
+
+/* Style the tab content */
+.tabcontent {
+   display: none;
+   color: #ffffff;
+}
+
+slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #9c0cf7; /* Green background */
+    cursor: pointer; /* Cursor on hover */
 }
